@@ -1,3 +1,6 @@
+nombre = input("Cómo te llamas")
+print(f"¡Hola, {nombre}!")
+
 a = 34
 b = 45
 
@@ -7,8 +10,3 @@ if a > b:
     print("A es mayor que B")
 else:
     print("A es menor que B")
-
-# Un bucle que imprime 10 veces la palabra UPB
-
-for i in range(10):
-    print("UPB")
