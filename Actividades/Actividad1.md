@@ -37,13 +37,15 @@ En Visual Studio Code aprendimos a utilizarlo para emplear Python y cómo ejercu
 ### Preguntas a responder.
 1. ¿Qué es un IDE?
 
-        Un IDE es un programa especifico que nos permite, como usuarios, crear y editar código. Son especiales para identificar errores de programación, pero sobre todo, son muy importantes para llevar a acabo nuestros proyectos.
+        Un IDE es un programa especifico que nos   permite, como usuarios, crear y editar código.  
+        Son especiales para identificar errores de   programación, pero sobre todo, son muy   importantes para llevar a acabo nuestros   proyectos.  
       
 2. ¿Cuál es la diferencia entre los 3 IDEs estudiados en esta actividad?
 
-        Se vieron en clase tres IDEs, el IDLE de python, Visual Studio Code y Google Colab. IDLE es un entorno básico, especialmente, para aprender lo principal de Python. En cambio, Visual Studio Code es un editor de código un poco más avanzado y se puede personalizar con gran facilidad. Google Colab es un editor de código fuente, y lo que más me gusta es la forma de trabajar en los Notebooks, teniendo una parte de archivo .md (markdown) y edicción de código.
+        Se vieron en clase tres IDEs, el IDLE de   python, Visual Studio Code y Google Colab.   IDLE es un entorno básico, especialmente, para
+        aprender lo principal de Python. En cambio,   Visual Studio Code es un editor de código un   poco más avanzado y se puede personalizar con   gran facilidad. Google Colab es un   editor de código fuente, y lo que más me gusta   es la forma de trabajar en los   Notebooks, teniendo una parte de archivo .md (markdown) y edicción de código.  
 
 
 3. ¿Cuál utilizarás en el resto del curso y por qué?
 
-        Para el resto del curso, desde mi gusto, empleare Visual Studio Code, ya que me permite personalizar el ambiente como más me gusta, y me resulta más comodo para proyectos personales y emplear multiples lenguajes.
+        Para el resto del curso, desde mi gusto,   empleare Visual Studio Code, ya que me permite   personalizar el ambiente como más me   gusta, y me resulta más comodo para   proyectos personales y emplear multiples   lenguajes.
