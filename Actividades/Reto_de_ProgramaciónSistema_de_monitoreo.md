@@ -105,6 +105,8 @@ Fuente: Global Military.
 
 **Pseudocódigo**
 
+    Inicio
+
     consumo_base = 1.1504
     consumo_headwind = consumo_base + (consumo_base * 0.15)
     consumo_tailwind = consumo_base - (consumo_base * 0.03)
@@ -164,20 +166,19 @@ Fuente: Global Military.
 
     FinMientras
 
-    Si combustible_actual <= reserva_legal
+    Si distancia = 0
+        Escribir "Vuelo terminado"
+
+    Sino si combustible_actual <= reserva_legal
 
         Escribir "EMERGENCIA: el combustible restante es", combustible_actual
         Escribir "Debes desviarte al aeropuerto más cercano"
+    Fin si
 
-    SiNo
-
-        Escribir "Vuelo terminado"
-
-    FinSi
-
-Fin
+    Fin
 
 **Diagrama de Flujo**
+![Diagrama de flujo](../Imagenes/DiagramadeflujoReto.jpg)
 
 ## Fase 3 y 4: Código Fuente e Implementación en Python
 

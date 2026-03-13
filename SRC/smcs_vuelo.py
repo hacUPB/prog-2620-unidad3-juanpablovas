@@ -48,10 +48,12 @@ while combustible_actual > reserva_legal and waypoints > 0:
     print(f"El combustible restante es: {combustible_actual} Kg")
     print(f"Faltan {distancia} km")
 
-if combustible_actual <= reserva_legal:
-    print(f"EMERGENCIA: el combustible restante es {combustible_actual} Kg, a falta de {distancia} Km para llegar al destino, debes desviarte al aeropuerto más cercano")
-else: 
+if distancia == 0:
     print("vuelo terminado")
+
+elif combustible_actual <= reserva_legal:
+    print(f"EMERGENCIA: el combustible restante es {combustible_actual} Kg, a falta de {distancia} Km para llegar al destino, debes desviarte al aeropuerto más cercano")
+
 
 
 
