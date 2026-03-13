@@ -29,6 +29,13 @@ Eres el ingeniero aeronáutico encargado de programar el **SMCS**, un sistema b�
 # Fases del Proyecto
 
 ## Fase 1: Análisis del Problema y Tabla de Datos
+La aeronave seleccionada para el desarrollo del proyecto es: 
+
+    ATR 72- 500
+
+![ATR 72 - 500](../Imagenes/atr72-500.jpg)
+
+Fuente de imagen: https://airlinesconnection.com/aircraft-charter/passenger-airliner-charter/regional-aircraft/atr72-500
 
 **Tabla de Entradas (Inputs)**  
 
