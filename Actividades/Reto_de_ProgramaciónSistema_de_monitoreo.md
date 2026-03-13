@@ -81,7 +81,7 @@ Con base en esto, se tiene que:
 
     (650 kg/h) / (565 Km/h) = 1.1504 Kg/km
 
-    Consumo base = 1.1504 Kg(Km)
+    Consumo base = 1.1504 Kg/(Km)
 
 El ATR 72 - 500 cuando tiene viente en contra puede consumir entre un 5% y un 15% más del consumo base de combustible.
 
@@ -94,6 +94,14 @@ El ATR 72 - 500 cuando tiene viente a favor, la velocidad del viento reduce el c
 Por lo tanto:
 
     Consumo Tailwind = 3%
+
+La reserva legal para el ATR 72 - 500 es de 45 minutos de vuelo
+
+    45 minutos = 0.75 horas
+    (0.75h)* (540,10 km/h) = 423.75 km
+
+    423.75 km * 1.1504 kg/km = 466 kg
+
 
 Fuente: Global Military.  
 
@@ -193,5 +201,3 @@ Fuente: Global Military.
 2) Un vuelo que encuentra demasiado viento en contra y el sistema se ve forzado a abortar la misión por falta de combustible.  
 
 ![Terminal 2](../Imagenes/Terminal2_SMCS.jpg)
-
-
