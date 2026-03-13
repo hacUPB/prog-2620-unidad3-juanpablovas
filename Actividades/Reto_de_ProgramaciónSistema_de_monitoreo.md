@@ -193,6 +193,17 @@ Fuente: Global Military.
 **Código fuente**
 ![Código Fuente](../Imagenes/Codigo%20Fuente%20SMCS.jpg)
 
+**Reflexión**
+Para comenzar, definí algunas variables base como el consumo estándar de combustible por kilómetro, el consumo con viento en contra y con viento a favor, además de una reserva legal de combustible. Estas variables me permitieron establecer desde el inicio las condiciones que el programa utilizaría para calcular el gasto de combustible dependiendo de la situación del vuelo.
+
+Luego creé la función calcular_consumo_tramo, cuyo objetivo es determinar cuánto combustible se consume en cada tramo del vuelo según la condición del viento. Dentro de esta función utilicé estructuras condicionales if, elif y else para evaluar si el viento está en contra, a favor, cruzado o si no hay viento. Dependiendo de la condición ingresada, el programa selecciona el consumo correspondiente y lo multiplica por la distancia del tramo. También incluí un caso de precaución en el que, si el usuario ingresa una condición no válida, el programa asume viento nulo para evitar errores.
+
+Después de definir la función, desarrollé la parte principal del programa. Primero mostré un mensaje de bienvenida y pedí al usuario ingresar el combustible inicial del vuelo y la distancia total de la ruta. Con esa distancia calculé la cantidad de waypoints, dividiendo el recorrido en tramos de 50 kilómetros. Esto me permitió simular el avance del vuelo por etapas en lugar de calcular todo de una sola vez.
+
+Posteriormente utilicé un ciclo while que se ejecuta mientras el combustible sea mayor que la reserva legal y aún queden tramos por recorrer. En cada iteración del ciclo el programa reduce un waypoint, descuenta 50 kilómetros de la distancia total y pide al usuario que indique la condición del viento. Con esa información se llama a la función creada anteriormente para calcular el consumo de combustible en ese tramo, y luego ese consumo se resta del combustible disponible.
+
+Finalmente agregué condiciones al final del programa para determinar el resultado del vuelo. Si la distancia restante llega a cero, el programa indica que el vuelo ha terminado. En cambio, si el combustible baja por debajo de la reserva legal antes de llegar al destino, el sistema muestra un mensaje de emergencia indicando que sería necesario desviarse al aeropuerto más cercano.
+
 **Capturas de pantalla**
 1) Un vuelo exitoso que llega a su destino con combustible por encima de la reserva.  
 
@@ -201,3 +212,4 @@ Fuente: Global Military.
 2) Un vuelo que encuentra demasiado viento en contra y el sistema se ve forzado a abortar la misión por falta de combustible.  
 
 ![Terminal 2](../Imagenes/Terminal2_SMCS.jpg)
+
